@@ -1,9 +1,12 @@
-@import "./utils/utils";
-@import "./vendors/vendors";
+@import "./utils/var";
+@import "./vendors/externalCode";
 @import "./base/font";
 @import "./base/base";
 @import "./base/global";
-@import "./components/components";
-@import "./layouts/layouts";
+@import "./components/button";
+@import "./components/glassy";
+@import "./layouts/form";
+@import "./layouts/navbar";
+@import "./layouts/section";
 @import "./pages/index";
-@import "./themes/themes";
+@import "./themes/summer";

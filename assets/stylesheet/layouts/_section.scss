@@ -1,0 +1,19 @@
+section {
+    margin-bottom: 2em;
+    &#vision {
+        background-image: url("../images/background-3.jpg");
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100%;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}
