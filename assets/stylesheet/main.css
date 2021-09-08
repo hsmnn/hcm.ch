@@ -241,8 +241,9 @@ th {
 
 body,
 html {
-  font-family: 'opensans';
+  font-family: 'opensans', arial;
   height: 100%;
+  margin: 0;
 }
 
 h1,
@@ -293,6 +294,9 @@ nav {
           justify-content: center;
   height: 9em;
   z-index: 3;
+  background-color: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 nav .nav__content {
@@ -334,13 +338,14 @@ section {
   margin-bottom: 2em;
 }
 
-section#vision {
+section.head {
   background-image: url("../images/background-3.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
+  margin: 0;
   position: relative;
   z-index: 1;
   display: -webkit-box;
@@ -350,13 +355,27 @@ section#vision {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+section.head p {
+  color: #ac0800;
+  font-size: 2em;
+}
+
+.head__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
 }
 
 .container {
