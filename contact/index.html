@@ -141,163 +141,10 @@
             <!--bookshop-live name(page-heading/page-heading.jekyll.html) params(bind=block) context(block=content_blocks[0]) -->
           <div class="c-page-heading__inner-wrapper
 			component">
-	<h2 class="c-page-heading__heading">Get in touch today</h2>
-	<p class="c-page-heading__subheading">We'd love to help you improve your sales.</p>
+	<h2 class="c-page-heading__heading">Prenez contact dès aujourd'hui</h2>
+	<p class="c-page-heading__subheading">Nous serons ravis de vous répondre !</p>
 </div>
 
-          <!--bookshop-live end-->
-        </div>
-        
-    
-        
-        <div class="c-map 
-                    component-wrapper
-                    
-                        component-wrapper--light
-                    ">
-            <!--bookshop-live name(map/map.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
-          <div class="c-map__inner-wrapper">
-	<div class="c-map__map" id="map"></div>
-	<script type="text/javascript">
-
-		window.mapData = {"latitude": -45.8779128,"longitude": 170.5026709, "zoom": 13};
-
-		function initMap() {
-			var myOptions = {
-				scrollwheel: false,
-				draggable: false,
-				panControl: false,
-				disableDefaultUI: true,
-				styles: [{
-					"featureType": "all",
-					"elementType": "labels.text.fill",
-					"stylers": [{
-						"saturation": 36
-					}, {
-						"color": "#000000"
-					}, {
-						"lightness": 40
-					}]
-				}, {
-					"featureType": "all",
-					"elementType": "labels.text.stroke",
-					"stylers": [{
-						"visibility": "on"
-					}, {
-						"color": "#000000"
-					}, {
-						"lightness": 16
-					}]
-				}, {
-					"featureType": "all",
-					"elementType": "labels.icon",
-					"stylers": [{
-						"visibility": "off"
-					}]
-				}, {
-					"featureType": "administrative",
-					"elementType": "geometry.fill",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 20
-					}]
-				}, {
-					"featureType": "administrative",
-					"elementType": "geometry.stroke",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 17
-					}, {
-						"weight": 1.2
-					}]
-				}, {
-					"featureType": "landscape",
-					"elementType": "geometry",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 20
-					}]
-				}, {
-					"featureType": "poi",
-					"elementType": "geometry",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 21
-					}]
-				}, {
-					"featureType": "road.highway",
-					"elementType": "geometry.fill",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 17
-					}]
-				}, {
-					"featureType": "road.highway",
-					"elementType": "geometry.stroke",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 29
-					}, {
-						"weight": 0.2
-					}]
-				}, {
-					"featureType": "road.arterial",
-					"elementType": "geometry",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 18
-					}]
-				}, {
-					"featureType": "road.local",
-					"elementType": "geometry",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 16
-					}]
-				}, {
-					"featureType": "transit",
-					"elementType": "geometry",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 19
-					}]
-				}, {
-					"featureType": "water",
-					"elementType": "geometry",
-					"stylers": [{
-						"color": "#000000"
-					}, {
-						"lightness": 17
-					}]
-				}],
-				zoom: window.mapData.zoom,
-				maxZoom: window.mapData.zoom,
-				minZoom: window.mapData.zoom,
-				center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-				mapTypeId: google.maps.MapTypeId.ROADMAP
-			};
-			map = new google.maps.Map(document.getElementById("map"), myOptions);
-			marker = new google.maps.Marker({
-				map: map,
-				position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
-			});
-
-			google.maps.event.addDomListener(window, "resize", function () {
-				map.setCenter(myOptions.center);
-			});
-		}
-	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initMap"></script>
-</div>
           <!--bookshop-live end-->
         </div>
         
@@ -308,7 +155,7 @@
                     
                         component-wrapper--light
                     ">
-            <!--bookshop-live name(contact-form/contact-form.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
+            <!--bookshop-live name(contact-form/contact-form.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
           <div class="c-contact-form__inner-wrapper
 			component">
 	
@@ -322,7 +169,7 @@
 			  method="post">
 			<input type="hidden" 
 				   name="_to" 
-				   value="admin@example.com" />
+				   value="contact@hcm.ch" />
 			<input type="text" 
 				   name="_gotcha" 
 				   style="display: none;">
@@ -366,18 +213,24 @@
 				<h3 class="c-contact-form__heading">Address</h3>
 				<address class="c-contact-form__detail">
 					<a target="_blank" 
-					   href="https://www.google.com/maps/place/1+Bond+Street%2C+Dunedin%2C+New+Zealand">1 Bond Street, <br>Dunedin, <br>New Zealand</a>
+					   href="https://www.google.com/maps/place/Rue+de+la+Cl%C3%A9mence+41">Rue de la Clémence 41</a>
 				</address>
 			
 
 			
+			
+				<h3 class="c-contact-form__heading">Postal Address</h3>
+				<address class="c-contact-form__detail">
+					<a target="_blank" 
+					   href="https://www.google.com/maps/place/1635%2C+La+Tour-de-Tr%C3%AAme+CH">1635, <br>La Tour-de-Trême CH</a>
+				</address>
 			
 
 			
 			
 				<h3 class="c-contact-form__heading">Email Address</h3>
 				<p class="c-contact-form__detail c-contact-form__detail--no-margin">
-					<a href="mailto:support@example.com">support@example.com</a>
+					<a href="mailto:contact@hcm.ch">contact@hcm.ch</a>
 				</p>
 			
 
