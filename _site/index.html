@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCM</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="HCM">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="/">
+    <meta name="twitter:card" content="">
+    <meta property="og:site_name" content="HCM">
+    <meta name="twitter:image:alt" content="">
+    <meta property="twitter:title" content="Home">
+    <meta name="twitter:site" content="">
+    <link rel="canonical" href="/">
+
+    <link rel="stylesheet" href="/assets/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/uploads/logo-2.png">
+    <link rel="icon" type="image/png" href="/uploads/logo-2.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/uploads/logo-2.png" sizes="16x16" />
+
+    <link rel="apple-touch-icon" sizes="128x128" href="/uploads/logo-2.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/uploads/logo-2.png">
+    <link rel="icon" sizes="128x128" href="/uploads/logo-2.png" />
+    <link rel="icon" sizes="256x256" href="/uploads/logo-2.png" />
+
+    
+        
+        
+        <link rel="stylesheet" 
+              href="//fonts.googleapis.com/css?family=San+Francisco|San+Francisco:400,400i,700,700i">
+        
+    
+</head>
+<body>
+    <div class="body-wrapper">
+        
+
+
+<div id="js-nav"
+	 class="c-navigation
+	 		
+		 		c-navigation--home
+	 		"
+	 >
+	<div class="c-navigation__inner-wrapper">
+		
+			<a href="/">
+				<img src="/uploads/logo-1.png" alt="HCM" />
+			</a>
+		
+		<h1 class="c-navigation__title"><a href="/">HCM</a></h1>
+		<ul class="c-navigation__nav-items">
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--text
+							  "
+					   href="/pricing/">
+					   <span class="c-navigation__label">Tarifs</span>
+					</a>
+				</li>
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--text
+							  "
+					   href="/about/">
+					   <span class="c-navigation__label">L'équipe</span>
+					</a>
+				</li>
+			
+				<li class="c-navigation__item-wrapper">
+					<a class="c-navigation__item
+							  c-navigation__item--text
+							  "
+					   href="/contact/">
+					   <span class="c-navigation__label">Contact</span>
+					</a>
+				</li>
+			
+
+			<li class="c-navigation__item-wrapper c-navigation__item-wrapper--mobile">
+				<a id="js-mobile-toggle"
+				   class="c-navigation__item
+						  c-navigation__item--mobile-toggle"
+				   href="#">
+				   <span class="c-navigation__label">☰</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script>
+	const navToggle = document.getElementById('js-mobile-toggle');
+	const nav = document.getElementById('js-nav');
+	
+	function toggleNav() {
+		nav.classList.toggle('c-navigation--open');
+	}
+
+	navToggle.addEventListener('click', toggleNav);
+</script>
+        <!-- 
+            A data-bookshop-live enables live editing previews in CloudCannon.
+            To enable live previews of new components, we render all components
+            via a page component that expects an array of content blocks.
+
+            data-bookshop-props is used to control what front matter to bind to.
+            Here we want to bind to all the front matter, so that page.content_blocks
+            is accessible from the bookshop renderer.
+
+            This element will get picked up by the bookshop dev renderer if present,
+            on production this does nothing.
+        -->
+        <div data-bookshop-live="page" data-bookshop-props="page">
+            <!-- 
+                Bookshop components are accessed using the bookshop tag, 
+                using the same syntax as the standard Jekyll include tag.
+            -->
+
+            <!--bookshop-live name(page/page.jekyll.html) params(content_blocks=page.content_blocks page_theme=page.page_theme) context() -->
+          
+    <div class="c-page theme-dark">
+
+    
+    
+        
+        <div class="c-header-with-image 
+                    component-wrapper
+                    
+                        component-wrapper--branded
+                    ">
+            <!--bookshop-live name(header-with-image/header-with-image.jekyll.html) params(bind=block) context(block=content_blocks[0]) -->
+          <div class="c-header-with-image__inner-wrapper
+			c-header-with-image__inner-wrapper--center
+			component">
+	<div class="c-header-with-image__content-wrapper">
+		<div class="c-header-with-image__heading"
+			 style="color: #ffffff"><h1>Hausmann Church Management</h1></div>
+		<div class="c-header-with-image__subheading"
+			 style="color: #ffffff"><p>Notre mission : Accompagner l&rsquo;&eacute;glise locale dans la d&eacute;finition de sa strat&eacute;gie, la coh&eacute;rence de son fonctionnement organisationnel, la gestion de ses ressources humaines et ses besoins en solutions IT.</p></div>
+		
+			<!--bookshop-live name(button/button.jekyll.html) params(label=include.button_label
+						variant=include.button_variant
+						link_url=include.button_link_url) context() -->
+          
+
+
+
+	<a class="n-button
+			  n-button--transparent"
+		href="/about/"
+		>
+		<span class="n-button__label">En savoir plus</span>
+	</a>
+
+          <!--bookshop-live end-->
+		
+	</div>
+	
+		<div class="c-header-with-image__image-wrapper">
+			<img src="/uploads/header.jpg" alt="" />
+		</div>
+	
+</div>
+          <!--bookshop-live end-->
+        </div>
+        
+    
+        
+        <div class="c-image-and-text-blocks 
+                    component-wrapper
+                    
+                        component-wrapper--light
+                    ">
+            <!--bookshop-live name(image-and-text-blocks/image-and-text-blocks.jekyll.html) params(bind=block) context(block=content_blocks[1]) -->
+          <div class="c-image-and-text-blocks__inner-wrapper
+			component">
+	
+		<div class="c-image-and-text-blocks__block
+					c-image-and-text-blocks__block--left">
+			<div class="c-image-and-text-blocks__content-wrapper">
+				<div class="c-image-and-text-blocks__heading">
+					<h2>Accompagnement strat&eacute;gique</h2>
+				</div>
+				<div class="c-image-and-text-blocks__content">
+					<p>Hausmann Church Management a acquis les comp&eacute;tences et l&rsquo;exp&eacute;rience n&eacute;cessaire pour faciliter votre &eacute;quipe de leaders, conseil d&rsquo;&eacute;glise, dans la (re)d&eacute;finition de votre strat&eacute;gie eccl&eacute;siale. Sans direction le peuple p&eacute;rit nous dit le livre des Proverbes. Ce travail et sa r&eacute;guli&egrave;re r&eacute;&eacute;valuation sont essentiels &agrave; votre &eacute;glise locale.&nbsp; L&rsquo;&eacute;glise a v&eacute;ritablement besoin de conna&icirc;tre sa raison d&rsquo;&ecirc;tre particuli&egrave;re, son &eacute;tat projet&eacute; &agrave; moyen terme et les valeurs clefs qui motivent son activit&eacute;.</p>
+					
+				</div>
+			</div>
+			<div class="c-image-and-text-blocks__image-wrapper">
+				<img src="/uploads/strategy.jpg" alt="Accompagnement strat&eacute;gique" />
+			</div>
+		</div>
+	
+		<div class="c-image-and-text-blocks__block
+					c-image-and-text-blocks__block--right">
+			<div class="c-image-and-text-blocks__content-wrapper">
+				<div class="c-image-and-text-blocks__heading">
+					<h2>Coaching organisationnel</h2>
+				</div>
+				<div class="c-image-and-text-blocks__content">
+					<p>Le leadership est certainement un des plus beaux d&eacute;fis de l&rsquo;&eacute;glise locale aujourd&rsquo;hui. De plus, une &eacute;glise locale a une part organisationnelle importante. La gestion eccl&eacute;siale (ressources humaines, finances, communication, etc.) requi&egrave;re des comp&eacute;tences certaines, comme une v&eacute;ritable petite entreprise. HCM offre son expertise pour vous aider &agrave; d&eacute;finir les sph&egrave;res de responsabilit&eacute;s au sein de l&rsquo;&eacute;glise locale, les liens de redevabilit&eacute;s, &agrave; choisir les bons responsables b&eacute;n&eacute;voles, &eacute;tablir des cahiers de fonctions et des contrats de travail b&eacute;n&eacute;vole, &agrave; vous organiser de mani&egrave;re coh&eacute;rente.</p>
+					
+				</div>
+			</div>
+			<div class="c-image-and-text-blocks__image-wrapper">
+				<img src="/uploads/organisation.jpg" alt="Coaching organisationnel" />
+			</div>
+		</div>
+	
+		<div class="c-image-and-text-blocks__block
+					c-image-and-text-blocks__block--left">
+			<div class="c-image-and-text-blocks__content-wrapper">
+				<div class="c-image-and-text-blocks__heading">
+					<h2>Support informatique</h2>
+				</div>
+				<div class="c-image-and-text-blocks__content">
+					<p>HCM vous propose des prestations de support et maintenance informatiques allant de l&rsquo;installation d&rsquo;un seul ordinateur jusqu&rsquo;aux installations r&eacute;seaux complexes. &nbsp;HCM propose &eacute;galement la cr&eacute;ation de site web pour votre &eacute;glise locale, solution id&eacute;ale pour pr&eacute;senter votre &eacute;glise et ses activit&eacute;s sur internet. En ce qui concerne le web design, HCM est entour&eacute; de partenaires comp&eacute;tents pr&ecirc;ts &agrave; vous servir pour optimiser l&rsquo;identit&eacute; visuelle de votre &eacute;glise locale.</p>
+					
+				</div>
+			</div>
+			<div class="c-image-and-text-blocks__image-wrapper">
+				<img src="/uploads/itsolution.jpg" alt="Support informatique" />
+			</div>
+		</div>
+	
+		<div class="c-image-and-text-blocks__block
+					c-image-and-text-blocks__block--right">
+			<div class="c-image-and-text-blocks__content-wrapper">
+				<div class="c-image-and-text-blocks__heading">
+					<h2>Formation de leaders</h2>
+				</div>
+				<div class="c-image-and-text-blocks__content">
+					<p>HCM travaille &agrave; l&rsquo;&eacute;coute de vos besoins de formation dans le large domaine du leadership eccl&eacute;sial et du management de l&rsquo;&eacute;glise locale. Il s&rsquo;agit de vous permettre un apprentissage et donc une acquisition de comp&eacute;tences strat&eacute;giques et manag&eacute;riales propres &agrave; l&rsquo;environnement eccl&eacute;sial. En fonction de votre r&eacute;alit&eacute; locale, selon la d&eacute;finition des besoins de vos &eacute;quipes de responsables, nous d&eacute;finissons ensemble un plan de formation utile et personnalis&eacute;.</p>
+					
+				</div>
+			</div>
+			<div class="c-image-and-text-blocks__image-wrapper">
+				<img src="/uploads/formation.jpg" alt="Formation de leaders" />
+			</div>
+		</div>
+	
+</div>
+          <!--bookshop-live end-->
+        </div>
+        
+    
+        
+        <div class="c-call-to-action 
+                    component-wrapper
+                    
+                        component-wrapper--branded
+                    ">
+            <!--bookshop-live name(call-to-action/call-to-action.jekyll.html) params(bind=block) context(block=content_blocks[2]) -->
+          <div class="c-call-to-action__inner-wrapper
+			component">
+	<div class="c-call-to-action__content">
+		<h3><strong>Toutes nos prestations sont factur&eacute;es CHF 50.- / heure de travail effectu&eacute; (frais de d&eacute;placement en plus).</strong></h3>
+	</div>
+	
+		<!--bookshop-live name(button/button.jekyll.html) params(label=include.button_label
+			variant=include.button_variant
+			link_url=include.button_link_url) context() -->
+          
+
+
+
+	<a class="n-button
+			  n-button--transparent"
+		href=""
+		>
+		<span class="n-button__label">Nos tarifs détaillés</span>
+	</a>
+
+          <!--bookshop-live end-->
+	
+</div>
+          <!--bookshop-live end-->
+        </div>
+        
+    
+
+    </div>
+
+          <!--bookshop-live end-->
+        </div>
+        
+
+        
+
+<div class="c-footer">
+	<div class="c-footer__columns">
+		
+			<div class="c-footer__column">
+				
+				<ul>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="/pricing/"
+								   >
+								   
+<span class="c-footer__link-label">Tarifs</span>
+								</a>
+							
+						</li>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="/about/"
+								   >
+								   
+<span class="c-footer__link-label">L'équipe</span>
+								</a>
+							
+						</li>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="/contact/"
+								   >
+								   
+<span class="c-footer__link-label">Contact</span>
+								</a>
+							
+						</li>
+					
+				</ul>
+			</div>
+		
+			<div class="c-footer__column">
+				
+				<ul>
+					
+						<li>
+							
+								<a class="c-footer__link"
+								   href="contact@hcm.ch"
+								   >
+								   
+	
+	
+			<img class="c-footer__icon"
+	      		 src="/uploads/mail.svg"
+	      		 alt="Mail" />
+	
+
+<span class="c-footer__link-label">Mail</span>
+								</a>
+							
+						</li>
+					
+				</ul>
+			</div>
+		
+	</div>
+	<div class="c-footer__lower-text">
+		<p>&copy; 2022 Hausmann Church Management &bull; <a href="#">Terms</a> &amp; <a href="#">Privacy</a> &bull; <a href="https://cloudcannon.com/community/">Template by CloudCannon</a></p>
+	</div>
+</div>
+
+        <div class="dark-mode-toggle">
+            <a id="js-dark-mode"
+               class="n-button">
+               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zm-2 5.79V18h-3.52L12 20.48 9.52 18H6v-3.52L3.52 12 6 9.52V6h3.52L12 3.52 14.48 6H18v3.52L20.48 12 18 14.48zM12 6v12c3.31 0 6-2.69 6-6s-2.69-6-6-6z"/></svg> <span id="js-mode-label">Dark Mode</span>
+            </a>
+        </div>
+        <script type="text/javascript" src="/assets/js/dark-mode.js"></script>
+
+        <!--
+            live component for CloudCannon live previews.
+        -->
+        <script>
+(function(){
+  const bookshopLiveSetup = (CloudCannon) => {
+    CloudCannon.enableEvents();
+
+    const head = document.querySelector('head');
+    const script = document.createElement('script');
+    script.src = `/_cloudcannon/bookshop-live.js`;
+    script.onload = function() {
+      window.bookshopLive = new window.BookshopLive({
+        remoteGlobals: ['/_cloudcannon/bookshop-site-data.json']
+      });
+      const updateBookshopLive = async () => {
+        const frontMatter = await CloudCannon.value();
+        const options = window.bookshopLiveOptions || {};
+        await window.bookshopLive.update({page: frontMatter}, options);
+        CloudCannon?.refreshInterface?.();
+      }
+      document.addEventListener('cloudcannon:update', updateBookshopLive);
+      updateBookshopLive();
+    }
+    head.appendChild(script);
+  }
+
+  document.addEventListener('cloudcannon:load', function (e) {
+    bookshopLiveSetup(e.detail.CloudCannon);
+  });
+})();
+</script>
+    </div>
+</body>
+</html>
