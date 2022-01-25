@@ -2,21 +2,21 @@ name: website deployment
 
 on:
   push:
-    branches: [production]
+    branches: [main]
 
 jobs:
   deploy:
     runs-on: debian-latest
     steps:
-      - uses: actions/checkout@production
+      - uses: actions/checkout@main
       - name: sync
-        uses: appleboy/scp-action@production
+        uses: appleboy/scp-action@main
         env:
           HOST: ${{ secrets.HOST }}
           USERNAME: ${{ secrets.USERNAME }}
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.KEY }}
         with:
-          source: "dest/*"
+          source: "_site/*"
           target: "/home/clients/793e7dadbc54f2acdbb0cadc4196e9b5/sites/hcm.ch"
           strip_components: 1
